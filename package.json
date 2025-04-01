@@ -1,0 +1,13 @@
+{
+  "name": "telegram-bot-render-bg",
+  "version": "1.0.0",
+  "description": "Bot Telegram en background worker pour Render",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-telegram-bot-api": "^0.61.0"
+  }
+}

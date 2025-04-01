@@ -1,0 +1,10 @@
+services:
+  - type: background
+    name: telegram-bot-render-bg
+    env: node
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    envVars:
+      - key: BOT_TOKEN
+        value: replace_with_your_token
